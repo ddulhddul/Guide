@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>{{name}}</h1>
+        <p><strong>Email: </strong>{{email}}</p>
+        <p><strong>Address: </strong>{{address.street}}, {{address.city}}, {{address.state}}</p>
+        <button (click)="toggleHobbies()">{{showHobbies? 'Hidden': 'Show'}}</button>
+        <div *ngIf='showHobbies'>
+            <h3>Hobbies</h3>
+            <ul>
+                <li *ngFor='let hobby of hobbies; let i = index'>
+                    {{hobby}} <button (click)='deleteHobby(i)'>X</button>
+                </li>
+            </ul>
+        </div>
+        <form (submit)='addHobby(hobby.value)'>
+            <label>Add Hobby : </label>
+            <input type="test" #hobby autofocus>
+        </form>
+        <form>
+            <h3>Edit user</h3>
+            <br><label>Name: </label><input type="text" name='name' [(ngModel)]="name" />
+            <br><label>Email: </label><input type="text" name='email' [(ngModel)]="email" />
+            <br><label>Adress: </label>
+            <input type="text" name='address.street' [(ngModel)]="address.street" />
+            <input type="text" name='address.city' [(ngModel)]="address.city" />
+            <input type="text" name='address.state' [(ngModel)]="address.state" />
+        </form>
+
+        <hr />
+        <h3>Posts</h3>
+        <div *ngFor="let post of posts">
+            <h3>{{post.title}}</h3>
+            <p>{{post.body}}</p>
+        </div>
+    </body>
+</html>

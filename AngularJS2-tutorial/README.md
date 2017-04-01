@@ -1,22 +1,45 @@
-# Repository Guide
+# [Angular 2 In 60 Minutes](https://www.youtube.com/watch?v=-zW1zHqsdyc)
+* {{}} : binding expression
+* [] : property binding
+* () : event binding
 
-## Design Pattern Notes (2017.7.4 ~ 2017.7.7)
-- Java 언어로 배우는 디자인 패턴 입문
+## what you should know
+* html
+* css(not that important)
+* basic javascript
+* programming fundamentals
 
-### [Day1 shortcut](DesignPatterns/memo/day1.md)
-### [Day2 shortcut](DesignPatterns/memo/day2.md)
-### [Day3 shortcut](DesignPatterns/memo/day3.md)
-### [Day4 shortcut](DesignPatterns/memo/day4.md)
+## what is angular2?
+* javascript client side framework
+* created and maintained by google
+* most popular javascript framework
 
+## what angular 2 is not
+* a swerver side framework
+* javascript library
+* design pattern
+* platform or language
+* plugin or extension
 
-## MongoDB Tutorials (2017.5.8)
-- [mongoDB](MongoDB/mongo.md)
+## offer
+* dynamic html
+* powerful templates
+* fast rendering
+* http services
+* component encapsulation
+* form input handling
+* event handling
+* routing
+* latest javascript
 
+## new from angular 1
+* no more controllers and scope
+* components/reusable code
+* reduced learning curve
+* typescript & es2015/es6
+* better mobile support
+* rxJS & Observables
 
-<<<<<<< HEAD
-## Ionic2 Tutorials (2017.4.1)
-- [Ionic2](Ionic2-tutorial/README.md)
-=======
 ## what is typescript?
 * a strict superset of javascript with added features
 * maintained by microsoft
@@ -52,4 +75,3 @@ npm start
 ```
 ## JSONplaceholder
 * [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
->>>>>>> c7cf72b... README update
