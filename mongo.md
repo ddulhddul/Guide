@@ -41,6 +41,7 @@ C:\Program Files\MongoDB\Server\3.2\bin> mongod --dbpath "csram:\custom_folder"
 ```
 
 - RDBMS 와의 차이점
+
 RDBMS | MongoDB
 -|-
 Database | Database
@@ -111,6 +112,7 @@ db.COLLECTION_NAME.find(query, projection)
 
 ## Query
 - 비교연산자
+
     operator | 설명
     -|-
     $eq	| (equals) 주어진 값과 일치하는 값
@@ -123,6 +125,7 @@ db.COLLECTION_NAME.find(query, projection)
     $nin | 주어빈 배열 안에 속하지 않는 값
 
 - 논리연산자
+
     operator | 설명
     -|-
     $or	| 주어진 조건중 하나라도 true 일 때 true
@@ -131,6 +134,7 @@ db.COLLECTION_NAME.find(query, projection)
     $nor | 주어진 모든 조건이 false 일때 true
 
 - $regex 연산자
+
     option | 설명
     -|-
     i |-대소문자 무시
