@@ -41,11 +41,11 @@ C:\Program Files\MongoDB\Server\3.2\bin> mongod --dbpath "csram:\custom_folder"
 ```
 
 - RDBMS 와의 차이점
-    RDBMS | MongoDB
-    -|-
-    Database | Database
-    Table | Collections
-    Tuple/Row | Document
+RDBMS | MongoDB
+-|-
+Database | Database
+Table | Collections
+Tuple/Row | Document
 
 
 ### Data Modelling
