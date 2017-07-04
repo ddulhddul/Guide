@@ -26,9 +26,12 @@
 
 ## Iterator 49p
 - 다이어그램
+![img](https://github.com/ddulhddul/DesignPatternNotes/blob/master/be_Iterator/img.png)
 
 ## Adaptor 66p
 - 기존 버전에서 새로운버전 나왓을때, 중간 어댑터로 끼워준다
+![img](https://github.com/ddulhddul/DesignPatternNotes/blob/master/st_Adapter2Class/img.PNG)
+![img](https://github.com/ddulhddul/DesignPatternNotes/blob/master/st_Adapter2Object/img.PNG)
 
 ## Template Methods 77p
 - Abstract Class 적용한 poly
