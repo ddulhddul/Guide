@@ -1,6 +1,6 @@
 public class Main {
 	public static void main(String[] args) {
-		Chess c=new Chess();
+		Game c=new Chess();
 		String[] cplayers={"손오공","사오정"};
 		c.play(cplayers);
 		
