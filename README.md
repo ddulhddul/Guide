@@ -1,1 +1,1 @@
-# Design Pattern Notes (7.4 ~ 7.7)
+# Design Pattern Notes (2017.7.4 ~ 2017.7.7)

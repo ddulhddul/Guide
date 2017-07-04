@@ -25,7 +25,12 @@
 
 
 ## Iterator 49p
-    - 다이어그램
+- 다이어그램
 
 ## Adaptor 66p
-    - 기존 버전에서 새로운버전 나왓을때, 중간 어댑터로 끼워준다
+- 기존 버전에서 새로운버전 나왓을때, 중간 어댑터로 끼워준다
+
+## Template Methods 77p
+- Abstract Class 적용한 poly
+- 79p LDP (The Liskov Substitution Principle)
+- [Solid](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
