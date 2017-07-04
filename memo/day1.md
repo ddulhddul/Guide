@@ -24,18 +24,18 @@
 
 
 
-## Iterator 49p
+## 1. Iterator 49p
 - 다이어그램
-![img](https://github.com/ddulhddul/DesignPatternNotes/blob/master/be_Iterator/img.PNG)
+![img](../be_Iterator/img.PNG)
 
-## Adaptor 66p
+## 2. Adaptor 66p
 - 기존 버전에서 새로운버전 나왓을때, 중간 어댑터로 끼워준다
-![img](https://github.com/ddulhddul/DesignPatternNotes/blob/master/st_Adapter2Class/img.PNG)
-![img](https://github.com/ddulhddul/DesignPatternNotes/blob/master/st_Adapter2Object/img.PNG)
+![img](../st_Adapter2Class/img.PNG)
+![img](../st_Adapter2Object/img.PNG)
 
-## Template Methods 77p
+## 3. Template Methods 77p
 - Abstract Class 적용한 poly
 - 79p LDP (The Liskov Substitution Principle)
 - [Solid](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
 
-![img](https://github.com/ddulhddul/DesignPatternNotes/blob/master/be_TemplateMethod2/img.PNG)
+![img](../be_TemplateMethod2/img.PNG)
