@@ -6,14 +6,14 @@ public class Main {
 		
 		System.out.println();
 		
-		Monopoly m=new Monopoly();
+		Game m=new Monopoly();
 		String[] mplayers={"손오공","사오정","저팔계"};
-		m.start(mplayers);
+		m.play(mplayers);
 		
 		System.out.println();
 		
-		BlueMarble b=new BlueMarble();
+		Game b=new BlueMarble();
 		String[] bplayers={"손오공","홍길동","사오정","홍길순"};
-		b.go(bplayers);
+		b.play(bplayers);
 	}
 }
