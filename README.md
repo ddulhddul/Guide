@@ -1,0 +1,1 @@
+# Design Pattern Notes (7.4 ~ 7.7)
