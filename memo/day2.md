@@ -48,3 +48,4 @@
 - 공장추가는 간단하지만 부품추가는 곤란
     > Adapter 패턴으로 해결가능
 
+![AbstractFactory](../cr_AbstractFactory2/img.PNG)
