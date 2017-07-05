@@ -1,0 +1,11 @@
+*
+!*/
+!/*/src/*.java
+!/*/src/*/*.java
+!/*/src/*/*/*.java
+!/*/*.cld
+!/*/*.png
+!/memo/*
+!*.md
+!*.pdf
+!/.gitignore

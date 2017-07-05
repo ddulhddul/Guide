@@ -1,5 +1,10 @@
 public class Main {
 	public static void main(String args[]) {
+		Builder b = Builder.newInstance("F1");
+		Director d = new Director(b);
+		d.buildVehicle();
+		
+		/*
 		// "F1"
 		F1Creator f1 = new F1Creator();
 		f1.buildVehicle();
@@ -15,5 +20,6 @@ public class Main {
 		// "plane"
 		PlaneCreator plane = new PlaneCreator();
 		plane.buildVehicle();
+		*/
 	}
 }
