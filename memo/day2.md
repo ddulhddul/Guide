@@ -15,4 +15,10 @@
 ![factoryMethod2](../cr_FactoryMethod2/img2.PNG)
 
 ## 5. Singleton p99
+- Singleton 1
+
 ![Singleton](../cr_Singleton2/img.PNG)
+
+- Singleton 2
+
+![Singleton2](../cr_Singleton2/img2.PNG)

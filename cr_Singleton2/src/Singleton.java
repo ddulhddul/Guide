@@ -1,17 +1,16 @@
-public class Singleton {
+public abstract class Singleton {
 	
 	//2. instance
-	private static Singleton instance;
+	private static Singleton instance = new ConcreteSingletonB();
 	
 	//1. private
-	private Singleton() {
+//	private Singleton() {
+	public Singleton() {
 		System.out.println("Singleton() "+this.toString());
 	}
 	
 	//3. Instance
 	public static Singleton getInstance(){
-		//가끔 사용할 경우...
-		if(instance == null) instance = new Singleton();
 		return instance;
 	}
 	
