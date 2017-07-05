@@ -1,7 +1,7 @@
 public class Singleton {
 	
 	//2. instance
-	private static Singleton instance = new Singleton();
+	private static Singleton instance;
 	
 	//1. private
 	private Singleton() {
@@ -10,6 +10,8 @@ public class Singleton {
 	
 	//3. Instance
 	public static Singleton getInstance(){
+		//가끔 사용할 경우...
+		if(instance == null) instance = new Singleton();
 		return instance;
 	}
 	
