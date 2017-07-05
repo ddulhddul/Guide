@@ -13,7 +13,7 @@
 1. Template Method
 2. Factory Method
 3. Adapter Class
-4. 
+4. Interpreter
 
 ## 생성 5개
     Factory Method
@@ -34,14 +34,14 @@
 - 다이어그램
 ![img](../be_Iterator/img.PNG)
 
-## 2. Adaptor 66p
+## 2. Adapter 66p
 - 기존 버전에서 새로운버전 나왓을때, 중간 어댑터로 끼워준다
 
-- Adaptor 1
+- Adapter 1
 
 ![img](../st_Adapter2Class/img.PNG)
 
-- Adaptor 2
+- Adapter 2
 
 ![img](../st_Adapter2Object/img.PNG)
 

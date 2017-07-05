@@ -38,6 +38,13 @@
 
 
 ## 7. Builder p128
+- 복잡한 인스턴스 조립
 
 ![Builder](../cr_Builder2/img.PNG)
+
+## 8. Abstract Factory 156p
+- Factory Method Design Pattern 사용 (factoryMethod 로 구분)
+- 같은 제약조건의 객체군을 만들 때
+- 공장추가는 간단하지만 부품추가는 곤란
+    > Adapter 패턴으로 해결가능
 
