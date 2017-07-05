@@ -9,8 +9,11 @@
 - Iterator, Template Method 디자인패턴이 들어있다.
 - 관련 패턴 : Template Method, Singletone, Composite, Iterator
 
+- FactoryMethod 1
+
 ![factoryMethod1](../cr_FactoryMethod2/img1.PNG)
 
+- FactoryMethod 2
 
 ![factoryMethod2](../cr_FactoryMethod2/img2.PNG)
 
@@ -22,3 +25,13 @@
 - Singleton 2
 
 ![Singleton2](../cr_Singleton2/img2.PNG)
+
+## 6. Prototype p112
+1. 종류가 너무 많아 클래스로 정리되지 않는 경우
+2. 클래스로부터 인스턴스 생성이 어려운 경우
+3. framework와 생성할 인스턴스를 분리하고 싶은 경우
+
+- java.lang.Cloneable
+- 원본의 복제객체를 넘긴다.
+
+![Prototype](../cr_Prototype2/img.PNG)

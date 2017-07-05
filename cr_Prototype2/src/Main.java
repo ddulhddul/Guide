@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
 		// 준비
-		Manager manager = new Manager();
+		Manager manager = Manager.getInstance();
 
 		// 생성
 		Product p1 = manager.create("r2d2");

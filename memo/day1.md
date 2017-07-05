@@ -9,6 +9,12 @@
 \\70.12.107.90
 
 # Degisn Pattern 23개
+- 4가지만 Abstract & Super Class
+1. Template Method
+2. Factory Method
+3. Adapter Class
+4. 
+
 ## 생성 5개
     Factory Method
     Abstract Factory
@@ -30,7 +36,13 @@
 
 ## 2. Adaptor 66p
 - 기존 버전에서 새로운버전 나왓을때, 중간 어댑터로 끼워준다
+
+- Adaptor 1
+
 ![img](../st_Adapter2Class/img.PNG)
+
+- Adaptor 2
+
 ![img](../st_Adapter2Object/img.PNG)
 
 ## 3. Template Methods 77p
