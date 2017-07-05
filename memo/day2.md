@@ -13,3 +13,8 @@
 
 
 ![factoryMethod2](../cr_FactoryMethod2/img2.PNG)
+
+## 5. Singleton p99
+
+
+![factoryMethod2](../cr_Singleton2/img.PNG)
