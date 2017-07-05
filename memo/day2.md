@@ -50,4 +50,7 @@
 
 ![AbstractFactory](../cr_AbstractFactory2/img.PNG)
 
-## 9. 
+## 9. Bridge 172p
+- 기능 계층(좌)과 구현 계층(우) 분리
+
+![Bridge](../st_Bridge2/img.PNG)
