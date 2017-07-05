@@ -8,3 +8,8 @@
 ## 4. Factory Method 89p
 - Iterator, Template Method 디자인패턴이 들어있다.
 - 관련 패턴 : Template Method, Singletone, Composite, Iterator
+
+![factoryMethod1](../cr_FactoryMethod2/img1.PNG)
+
+
+![factoryMethod2](../cr_FactoryMethod2/img2.PNG)
