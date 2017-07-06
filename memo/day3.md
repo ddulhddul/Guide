@@ -1,3 +1,6 @@
+# Day3
+
+
 # 자바 매크로
 [http://javafactory.tistory.com/963](http://javafactory.tistory.com/963)
 ```java
@@ -81,3 +84,7 @@ r.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 - 패키지의 외부에서는 메멘토의 내부를 변경할수 없음.
 
 ![Memento](../be_Memento2/img.PNG)
+
+
+[이전](./day2.md)
+[다음](./day4.md)

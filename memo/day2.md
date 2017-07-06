@@ -1,3 +1,6 @@
+# Day2
+
+
 # encapsulation ?
 > Class의 public한 부분이 최소가 될 수 있도록 (get, set)
 1. 전체를 private로
@@ -61,3 +64,7 @@
 - State패턴과 거의 동일하지만 목적이 다르다. (알고리즘과 상태의 차이)
 
 ![Strategy](../be_Strategy2/img.PNG)
+
+
+[이전](./day1.md)
+[다음](./day3.md)
