@@ -71,3 +71,13 @@ r.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 - MVC
 - 관찰 대상의 상태가 변화하면 관찰자에게 알려준다.
 - java.util.Observer(Interface), java.util.Observable(Class)
+
+![Observer](../be_Observer2/img.PNG)
+
+## 18. [Memento 326p](../be_Memento2)
+- 상태를 저장하기
+- 어플리케이션 shut down 되어도 저장
+- 캡슐화에 문제가 될 수 있다.
+- 패키지의 외부에서는 메멘토의 내부를 변경할수 없음.
+
+![Memento](../be_Memento2/img.PNG)
