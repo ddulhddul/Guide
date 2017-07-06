@@ -1,6 +1,6 @@
 public class Main {
 	public static void main(String[] args) {
-		DrawingPaper dp = new DrawingPaper();
+		Shape d = new DrawingPaper();
 
 		Shape t = new Triangle("까칠한 삼각");
 		Shape r = new Rectangle("구멍난 네모");
@@ -8,6 +8,11 @@ public class Main {
 		Shape h = new Hexagon("시원한 육각수");
 		Shape e = new Ellipse("긴타원");
 		Shape c = new Circle("동그라미");
+		
+		DrawingPaper dp = null;
+		if(d instanceof DrawingPaper){
+			dp = (DrawingPaper)d;
+		}
 
 		dp.add(t);
 		dp.add(r);

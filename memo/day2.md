@@ -17,7 +17,7 @@
 
 ![factoryMethod2](../cr_FactoryMethod2/img2.PNG)
 
-## 5. Singleton p99
+## 5. Singleton 99p
 - Singleton 1
 
 ![Singleton](../cr_Singleton2/img.PNG)
@@ -26,7 +26,7 @@
 
 ![Singleton2](../cr_Singleton2/img2.PNG)
 
-## 6. Prototype p112
+## 6. Prototype 112p
 1. 종류가 너무 많아 클래스로 정리되지 않는 경우
 2. 클래스로부터 인스턴스 생성이 어려운 경우
 3. framework와 생성할 인스턴스를 분리하고 싶은 경우
@@ -37,7 +37,7 @@
 ![Prototype](../cr_Prototype2/img.PNG)
 
 
-## 7. Builder p128
+## 7. Builder 128p
 - 복잡한 인스턴스 조립
 
 ![Builder](../cr_Builder2/img.PNG)

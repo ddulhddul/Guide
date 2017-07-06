@@ -16,17 +16,28 @@
 4. Interpreter
 
 ## 생성 5개
-    Factory Method
-    Abstract Factory
-    Builder
-    Prototype
-    Singletone
+- Factory Method
+- Abstract Factory
+- Builder
+- Prototype
+- Singletone
 
-## 구조 7개
-    ABCDFFP
+## 구조 7개 (ABCDFFP)
+- Adapter
+    - 인터페이스만 확대
+- Bridge
+    - 인터페이스, 구현쪽 확대
+- Composite
+- Decorator
+- Proxy
+    - 똑같은 인터페이스 제공
+- Facade
+    - 단순화시켜 심플 인터페이스 제공
+- Flyweight
+    - 풀링구조
 
-## MISC
-    MMIISSCC TVO
+
+## MISC (MMIISSCC TVO)
 
 
 
