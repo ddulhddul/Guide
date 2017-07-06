@@ -30,4 +30,4 @@ http://javafactory.tistory.com/963
 - ConcreteElement역할의 추가는 곤란
     - 필요시 Adapter 를 이용...
 
-![Visitor](..//img.PNG)
+![Visitor](../be_Visitor2/img.PNG)

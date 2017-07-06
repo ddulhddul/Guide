@@ -1,6 +1,10 @@
 public class Main {
     static public void main(String[] args) {
         Car car = new Car();
+        
+        Visitor visitor = new PrintVisitor();
+        car.accept(visitor);
+        
         // all Print visitor
         // "Visiting " + wheel.getName() + " wheel"
         // "Visiting engine"

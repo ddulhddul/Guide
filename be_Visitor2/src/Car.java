@@ -12,4 +12,9 @@ public class Car implements Element{
             new Body(), new Engine() 
         };
     }
+    
+    public void accept(Visitor visitor){
+    	for(Element e:elements) e.accept(visitor);
+    	visitor.visit(this);
+    }
 }
