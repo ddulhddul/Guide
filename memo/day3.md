@@ -31,3 +31,10 @@ http://javafactory.tistory.com/963
     - 필요시 Adapter 를 이용...
 
 ![Visitor](../be_Visitor2/img.PNG)
+
+## 14. Chain of Responsibility 262p
+- 책임 떠넘기기
+- 복수의 오브젝트를 사슬처럼 연결해 두면, 그 오브젝트를 차례로 돌아다니면서 목적한 객체를 결정하는 방법
+- Decorator와 같지만 Concrete가 없다는 차이점
+
+![CoR](../be_ChainOfResponsibility2/img.PNG)
