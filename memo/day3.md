@@ -14,5 +14,8 @@ http://javafactory.tistory.com/963
 ![Composite](../st_Composite2/img.PNG)
 
 ## 12. Decorator 221p
+- 장식과 내용물을 동일시하기
 - Recursive 가능(상속하기 때문)
 - Decorator:Component = 1:1
+
+![Decorator](../st_Decorator2/img.PNG)

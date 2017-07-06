@@ -2,8 +2,8 @@ public class Main {
 	public static void main(String[] args) {
         // create a decorated Window with horizontal and vertical scrollbars
         IWindow decoratedWindow = 
-        	new HorizontalScrollBarDecorator (
-                new VerticalScrollBarDecorator(
+    		new VerticalScrollBarDecorator(
+				new HorizontalScrollBarDecorator (
                 	new SimpleWindow()
                 )
             );
