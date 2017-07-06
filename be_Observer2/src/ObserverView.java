@@ -3,14 +3,14 @@ import java.awt.*;
 import java.awt.event.*;
 
 //1.implements Observer 
-public class ObserverView{
+public class ObserverView implements Observer{
 	private Frame main;
 	private TextArea area;
 	private Button button;
 
 	public ObserverView(Stock stock) {
 		// 3. Observable한테 등록
-
+		stock.addObserver(this);
 
 		main = new Frame("Test");
 		area = new TextArea(10, 40);
@@ -32,10 +32,13 @@ public class ObserverView{
 		});
 	}
 
-	// 2. notify되었을때 수행할 내용
-	/*
+	@Override
+	public void update(Observable o, Object arg) {
+		// 2. notify되었을때 수행할 내용
 		Stock stock = (Stock) o;
 		area.append("The price of " + stock.getName() + " is now "
 				+ stock.getPrice() + "\r\n");
-	*/
+		
+	}
+
 }

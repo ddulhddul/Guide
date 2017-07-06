@@ -1,7 +1,7 @@
 import java.util.*;
 
 //1. extends Observable
-public class Stock{
+public class Stock extends Observable{
 	private String owner;
 	private String name;
 	private double price;
@@ -31,9 +31,10 @@ public class Stock{
 		if (price >= 0) {
 			this.price = price;
 			//2.Observable 오브젝트를 변경한 것으로 marking합니다.
-		
+			setChanged();
 			
 			//3.모든 옵저버에 그것을 통지
+			notifyObservers();
 
 		} else {
 			throw new Exception("Invalid price");

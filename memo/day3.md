@@ -65,3 +65,9 @@ r.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 - 어플리케이션에 대한 의존도가 높다는 것은 재이용성이 낮다는것.
 
 ![Mediator](../be_Mediator2/img.PNG)
+
+## 17. [Observer 307p](../be_Observer2)
+- 상태의 변화를 알려주기
+- MVC
+- 관찰 대상의 상태가 변화하면 관찰자에게 알려준다.
+- java.util.Observer(Interface), java.util.Observable(Class)
