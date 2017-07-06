@@ -19,3 +19,15 @@ http://javafactory.tistory.com/963
 - Decorator:Component = 1:1
 
 ![Decorator](../st_Decorator2/img.PNG)
+
+## 13. Visitor 242p
+- 데이터 구조를 돌아다니면서 처리하기
+- 데이터 구조와 처리를 분리
+- 방문하는 수만큼 메소드를 만든다.
+- The Open-Closed Principle
+    > 기존의 클래스를 수정하지 않고 확장할 수 있도록 하는 것
+
+- ConcreteElement역할의 추가는 곤란
+    - 필요시 Adapter 를 이용...
+
+![Visitor](..//img.PNG)
