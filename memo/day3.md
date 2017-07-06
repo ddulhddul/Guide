@@ -13,6 +13,8 @@ r.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
     - [http://blog.acronym.co.kr/570](http://blog.acronym.co.kr/570)
     - C:\opencv\build\x64\vc14\bin
 
+- Feature Matching
+    - http://blog.acronym.co.kr/579
 
 ## 11. [Composite 207p](../st_Composite2)
 - 그릇과 내용물을 동일시하기
@@ -44,7 +46,7 @@ r.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 
 ![Visitor](../be_Visitor2/img.PNG)
 
-## [14. Chain of Responsibility 262p](../be_ChainOfResponsibility2)
+## 14. [Chain of Responsibility 262p](../be_ChainOfResponsibility2)
 - 책임 떠넘기기
 - 복수의 오브젝트를 사슬처럼 연결해 두면, 그 오브젝트를 차례로 돌아다니면서 목적한 객체를 결정하는 방법
 - Decorator와 같지만 Concrete가 없다는 차이점
@@ -56,3 +58,10 @@ r.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 - 핵심은 인터페이스(API)를 적게 하는 것
 
 ![Facade](../st_Facade2/img.PNG)
+
+## 16. [Mediator 296p](../be_Mediator2)
+- 중개인을 통해서 처리하기
+- 통신 경로의 증가 때문에 중개인 사용
+- 어플리케이션에 대한 의존도가 높다는 것은 재이용성이 낮다는것.
+
+![Mediator](../be_Mediator2/img.PNG)
