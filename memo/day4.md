@@ -23,5 +23,15 @@
 ![Flyweight](../st_Flyweight2/img.PNG)
 
 
+## 21. [Proxy 384p](../st_Proxy2)
+- 필요해지면 만들기
+- 자주 발생되는 일상적 코딩은 Proxy에, 가끔 발생되는 코딩은 Real Subject에
+- HTTP Proxy
+
+
+![Proxy](../st_Proxy2/im.PNG)
+
+![Proxy](../st_Proxy2/img.PNG)
+
 
 [이전](./day3.md)
