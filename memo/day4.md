@@ -11,6 +11,17 @@
 
 ![State](../be_State2/img.PNG)
 
+## 20. [Flyweight 368p](../st_Flyweight2)
+- 동일한 것을 공유해서 낭비 없애기
+- 메모리를 가장 적게 쓴다.
+- 퍼포먼스 향상을 위한...
+- 재사용 (pulling 구조)
+
+
+![Flyweight](../st_Flyweight2/im.PNG)
+
+![Flyweight](../st_Flyweight2/img.PNG)
+
 
 
 [이전](./day3.md)

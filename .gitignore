@@ -1,6 +1,7 @@
 *
 !*/
 !/*/src/*.java
+!/*/src/*.txt
 !/*/src/*/*.java
 !/*/src/*/*/*.java
 !/*/*.cld
