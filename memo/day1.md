@@ -45,6 +45,9 @@
 
 ## 1. [Iterator 49p](../be_Iterator)
 - 다이어그램
+
+![img](../be_Iterator2/im.PNG)
+
 ![img](../be_Iterator/img.PNG)
 
 ## 2. [Adapter 66p](../st_Adapter2Object)
@@ -52,9 +55,13 @@
 
 - Class Adapter
 
+![img](../st_Adapter2Class/im.PNG)
+
 ![img](../st_Adapter2Class/img.PNG)
 
 - Object Adapter
+
+![img](../st_Adapter2Class/im2.PNG)
 
 ![img](../st_Adapter2Object/img.PNG)
 
@@ -62,6 +69,8 @@
 - Abstract Class 적용한 poly
 - 79p LDP (The Liskov Substitution Principle)
 - [Solid](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+
+![img](../be_TemplateMethod2/im.PNG)
 
 ![img](../be_TemplateMethod2/img.PNG)
 
