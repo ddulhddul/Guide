@@ -55,6 +55,7 @@
 
 ## 9. [Bridge 172p](../st_Bridge2)
 - 기능 계층(좌)과 구현 계층(우) 분리
+- API를 만들때 씀.
 
 ![Bridge](../st_Bridge2/img.PNG)
 

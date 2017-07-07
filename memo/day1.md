@@ -50,11 +50,11 @@
 ## 2. [Adapter 66p](../st_Adapter2Object)
 - 기존 버전에서 새로운버전 나왓을때, 중간 어댑터로 끼워준다
 
-- Adapter 1
+- Class Adapter
 
 ![img](../st_Adapter2Class/img.PNG)
 
-- Adapter 2
+- Object Adapter
 
 ![img](../st_Adapter2Object/img.PNG)
 

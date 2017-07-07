@@ -26,7 +26,7 @@ r.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
     > Component 배열
 
 - Tree Structure
-- ex) File System, HTML DOM, MVC
+- ex) File System, HTML DOM
 
 ![Composite](../st_Composite2/img.PNG)
 
