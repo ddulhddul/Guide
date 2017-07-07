@@ -34,4 +34,18 @@
 ![Proxy](../st_Proxy2/img.PNG)
 
 
+## 22. [Command 402p](../be_Command2)
+- 명령을 클래스로 표현하기
+
+![Command](../be_Command2/im.PNG)
+
+![Command](../be_Command2/img.PNG)
+
+
+## 23. [Interpreter 431p](../be_Interpreter2)
+- 문법규칙을 클래스로 표현하기
+
+![Interpreter](../be_Interpreter2/im.PNG)
+
+
 [이전](./day3.md)

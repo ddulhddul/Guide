@@ -1,24 +1,6 @@
 # Day3
 
 
-# 자바 매크로
-[http://javafactory.tistory.com/963](http://javafactory.tistory.com/963)
-```java
-Robot r = new Robot();
-r.mouseMove(200, 270);
-r.mousePress(InputEvent.BUTTON1_MASK);
-r.mouseRelease(InputEvent.BUTTON1_MASK);
-r.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-r.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-```
-
-- openCV
-    - [http://blog.acronym.co.kr/570](http://blog.acronym.co.kr/570)
-    - C:\opencv\build\x64\vc14\bin
-
-- Feature Matching
-    - http://blog.acronym.co.kr/579
-
 ## 11. [Composite 207p](../st_Composite2)
 - 그릇과 내용물을 동일시하기
 - Recursive 가능(상속하기 때문)
