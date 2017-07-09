@@ -1,0 +1,17 @@
+<form name='TodoForm' ng-submit='add(newTodoTitle)'>
+    <div class="row">
+        <div class="col-lg-4">
+        <div class="input-group">
+            <input class="form-control" type="text" ng-model='newTodoTitle'  placeholder="Input New Todo" autofocus minlength="3">
+            <div class="input-group-btn">
+            <button type='submit' class='btn btn-success'>Add</button>
+            </div>
+        </div>
+
+        <div ng-show='TodoForm.$dirty && TodoForm.$invalid'>
+            <div class="alert alert-warning" role="alert">input more than 3 charaters</div>
+        </div>
+        
+        </div>
+    </div>
+</form>
