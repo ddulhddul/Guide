@@ -1,4 +1,12 @@
 # Repository Guide
+How to Merge
+```linux
+git remote add -f DesignPatternNotes ../DesignPatternNotes
+git merge -s ours --allow-unrelated-histories --no-commit DesignPatternNotes/master
+git read-tree --prefix=DesignPatternNotes/ -u DesignPatternNotes/master
+git commit -m "Merge B project as our subdirectory"
+```
+
 
 ## Design Pattern Notes (2017.7.4 ~ 2017.7.7)
 - Java 언어로 배우는 디자인 패턴 입문
