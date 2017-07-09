@@ -1,4 +1,15 @@
 # Repository Guide
 
-## Tutorials
+## Design Pattern Notes (2017.7.4 ~ 2017.7.7)
+- Java 언어로 배우는 디자인 패턴 입문
+
+### [Day1 shortcut](DesignPatterns/memo/day1.md)
+### [Day2 shortcut](DesignPatterns/memo/day2.md)
+### [Day3 shortcut](DesignPatterns/memo/day3.md)
+### [Day4 shortcut](DesignPatterns/memo/day4.md)
+
+
+## MongoDB Tutorials (2017.5.8)
 - mongoDB [https://github.com/ddulhddul/Guide/blob/master/mongo.md](https://github.com/ddulhddul/Guide/blob/master/mongo.md)
+
+
