@@ -1,5 +1,5 @@
 # Repository Guide
-How to Merge
+- How to Merge
 ```linux
 git remote add -f DesignPatternNotes ../DesignPatternNotes
 git merge -s ours --allow-unrelated-histories --no-commit DesignPatternNotes/master
@@ -28,12 +28,13 @@ git commit -m "Merge B project as our subdirectory"
 ## AngularJs Tutorials (2017.3.12 ~ 2017.3.19)
 - [AngularJs](Angular1-tutorial/README.md)
 
-## ReactJs Tutorials (2017.3.5)
+## ReactJs Tutorials (2017.3.5) // Deleted
 - [ReactJs](React.js-Tutorial/README.md)
 
-## Python, Ruby Tutorials (2017.2.5)
+## Python, Ruby Tutorials (2017.2.5) // Deleted
 - [Python,Ruby](py_ruby_Tutorials/README.md)
+- [생활코딩 Python Ruby](https://opentutorials.org/course/1750)
 
-## NodeJs Tutorials (2017.1.29 ~ 2017.2.27)
+## NodeJs Tutorials (2017.1.29 ~ 2017.2.27) // Deleted
 - [NodeJs](nodejsTutorials/README.md)
-
+- [생활코딩 NodeJs](https://opentutorials.org/course/2136)
