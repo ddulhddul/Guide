@@ -1,0 +1,13 @@
+*
+!*/
+!/*/src/*.java
+!/*/src/*.txt
+!/*/src/*/*.java
+!/*/src/*/*/*.java
+!/*/*.cld
+!/*/*.png
+!/memo/*
+!*.md
+!*.pdf
+!/.gitignore
+/JavaMacro
