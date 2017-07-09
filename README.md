@@ -14,11 +14,11 @@
 ## Ionic2 Tutorials (2017.4.1)
 - [Ionic2](Ionic2-tutorial/README.md)
 
-## Angular2 Tutorials (2017.4.1)
-- [Angular2](Angular2-tutorial/README.md)
+## AngularJs2 Tutorials (2017.4.1)
+- [AngularJs2](Angular2-tutorial/README.md)
 
-## Angular1 Tutorials (2017.3.19)
-- [Angular1](Angular1-tutorial/README.md)
+## AngularJs Tutorials (2017.3.12 ~ 2017.3.19)
+- [AngularJs](Angular1-tutorial/README.md)
 
 ## ReactJs Tutorials (2017.3.5)
 - [ReactJs](React.js-Tutorial/README.md)
@@ -26,6 +26,6 @@
 ## Python, Ruby Tutorials (2017.2.5)
 - [Python,Ruby](py_ruby_Tutorials/README.md)
 
-## NodeJs Tutorials (2017.1.29)
+## NodeJs Tutorials (2017.1.29 ~ 2017.2.27)
 - [NodeJs](nodejsTutorials/README.md)
 
