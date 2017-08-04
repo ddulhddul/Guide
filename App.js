@@ -28,12 +28,21 @@ class NavBar extends Component {
 class User extends Component {
   render() {
     return (
-      <View style={{height: 200, flexDirection:'row', backgroundColor:'red'}}>
-        <View style={{flex:1}}></View>
-        <View style={{flex:3, flexDirection:'column'}}>
-          <Text>뚫뚤</Text>
-          <Text>메롱</Text>
-          <Text>하하</Text>
+      <View style={{height: 200, flexDirection:'column', backgroundColor:'red'}}>
+        <View style={{height: 150, flexDirection:'row'}}>
+          <View style={{width:100}}>
+            <View style={{width:100, height:100}}></View>
+          </View>
+          <View style={{flex:1}}>
+            <Text>aa</Text>
+            <Text>bb</Text>
+            <Text>cc</Text>
+          </View>
+        </View>
+        <View style={{height: 50, flexDirection:'row'}}>
+          <View style={{flex:1}}><Text>뚫뚤</Text></View>
+          <View style={{flex:1}}><Text>메롱</Text></View>
+          <View style={{flex:1}}><Text>하하</Text></View>
         </View>
       </View>
     );
