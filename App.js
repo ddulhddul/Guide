@@ -6,7 +6,11 @@ export default class App extends React.Component {
     return (
       <View style={styles.app}>
         <NavBar />
-        <Body />
+        <User />
+        <View style={{height:40}}></View>
+        <ButtonGroup />
+        <View style={{flex:1}}></View>
+        <Tabs />
       </View>
     );
   }
@@ -15,27 +19,59 @@ export default class App extends React.Component {
 class NavBar extends Component {
   render() {
     return (
-      <View style={styles.navBar}>
-        <Text>NavBar</Text>
+      <View style={{height:60, alignItems:'center', justifyContent:'center'}}>
+        <Text>더보기</Text>
       </View>
     );
   }
 }
-
-class Body extends Component {
+class User extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <View style={styles.left}></View>
-        <View style={styles.right}>
-          <View style={styles.top}></View>
-          <View style={styles.bottom}></View>
+      <View style={{height: 200, flexDirection:'row', backgroundColor:'red'}}>
+        <View style={{flex:1}}></View>
+        <View style={{flex:3, flexDirection:'column'}}>
+          <Text>뚫뚤</Text>
+          <Text>메롱</Text>
+          <Text>하하</Text>
         </View>
       </View>
     );
   }
 }
-
+class ButtonGroup extends Component {
+  render() {
+    return (
+      <View style={{height:200, flex:1, flexDirection:'column', backgroundColor:'green'}}>
+        <View style={{flexDirection:'row'}}>
+          <View style={{flex:1}}><Text>내 계정</Text></View>
+          <View style={{flex:1}}><Text>친구</Text></View>
+          <View style={{flex:1}}><Text>강의평가</Text></View>
+          <View style={{flex:1}}><Text>학점계산기</Text></View>
+        </View>
+        <View style={{flexDirection:'row'}}>
+          <View style={{flex:1}}><Text>쪽지함</Text></View>
+          <View style={{flex:1}}><Text>공지사항</Text></View>
+          <View style={{flex:1}}><Text>도움말</Text></View>
+          <View style={{flex:1}}><Text>앱 설정</Text></View>
+        </View>
+      </View>
+    );
+  }
+}
+class Tabs extends Component {
+  render() {
+    return (
+      <View style={{height: 100, flexDirection:'row', backgroundColor:'yellow'}}>
+        <View style={{flex:1}}><Text>홈</Text></View>
+        <View style={{flex:1}}><Text>시간표</Text></View>
+        <View style={{flex:1}}><Text>커뮤니티</Text></View>
+        <View style={{flex:1}}><Text>모임</Text></View>
+        <View style={{flex:1}}><Text>더보기</Text></View>
+      </View>
+    );
+  }
+}
 
 
 
@@ -67,6 +103,7 @@ const styles = StyleSheet.create({
   navBar: {
     height: 50,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: 'green'
   },
 });
