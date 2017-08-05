@@ -6,7 +6,8 @@ git merge -s ours --allow-unrelated-histories --no-commit DesignPatternNotes/mas
 git read-tree --prefix=DesignPatternNotes/ -u DesignPatternNotes/master
 git commit -m "Merge B project as our subdirectory"
 ```
-
+---
+---
 
 ## React-Native Notes (2017.8.3 ~ 2017.8.5)
 - [react-native](rnTest/README.md)
