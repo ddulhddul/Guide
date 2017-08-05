@@ -1,5 +1,14 @@
 # [react-native-tutorial](https://g6ling.gitbooks.io/react-native-tutorial-korean/content/)
+## How to Start ?
+```bash
+$ npm install -g create-react-native-app
+$ create-react-native-app AwesomeProject
+$ cd AwesomeProject
+$ npm start
+```
 ---
+
+
 ## 공식 Site
 [https://facebook.github.io/react-native/](https://facebook.github.io/react-native/)
 
@@ -8,6 +17,7 @@
 
 ## expo
 [https://expo.io/](https://expo.io/)
+
 
 
 ## bind ?
@@ -22,9 +32,14 @@
 $ npm install react-native-vector-icons --save
 ```
 
+## animation 사용
+[https://facebook.github.io/react-native/docs/animated.html](https://facebook.github.io/react-native/docs/animated.html)
 
 
 
+
+---
+---
 
 ## Reactjs code Snippets (vscode)
 Below is a list of all available snippets and the triggers of each one. The ⇥ means the TAB key.

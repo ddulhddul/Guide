@@ -5,7 +5,8 @@ import {
   Text,
   View,
   TextInput,
-  TouchableOpacity
+  TouchableOpacity,
+  Animated
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons'
 
@@ -56,10 +57,37 @@ class Todo extends Component {
     })
   }
 
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      x: new Animated.Value(100),
+    };
+  }
+  click(){
+    if(this.state.x._value == 100){
+      Animated.spring(
+        this.state.x,
+        {toValue: 200}
+      ).start();
+    }
+    else{
+      Animated.timing(
+        this.state.x,
+        {toValue: 100}
+      ).start();
+    }
+
+  }
+
+
+
   render() {
     return (
       <View style={styles.container}>
+          
         <Ionicons size={35} name='ios-person-outline' color="#000000" />
+
         <TextInput
           style={{height: 40,borderColor: 'gray', borderWidth: 1}}
           onChangeText={(text) => {
@@ -67,11 +95,6 @@ class Todo extends Component {
           }}
           value={this.state.inputText}
           />
-        <TouchableOpacity onPress={this.addTodo.bind(this)}>
-          <Text>
-            add Todo
-          </Text>
-        </TouchableOpacity>
         {
           this.state.todos.map((todoItem, index)=> {
             return (
@@ -89,6 +112,13 @@ class Todo extends Component {
             )
           })
         }
+        <TouchableOpacity onPress={this.addTodo.bind(this)}>
+          <Animated.View style={{position: 'absolute', backgroundColor: '#AAAAAA', right: this.state.x, bottom: 100, height: 30, width: 30, backgroundColor:'red'}}>
+            <Text>
+              add Todo
+            </Text>
+          </Animated.View>
+        </TouchableOpacity>
       </View>
     );
   }
