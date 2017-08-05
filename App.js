@@ -1,11 +1,19 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  TextInput
+} from 'react-native';
+
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.app}>
         <NavBar />
+        <TextInputTest />
         <User />
         <View style={{height:40}}></View>
         <ButtonGroup />
@@ -15,6 +23,32 @@ export default class App extends React.Component {
     );
   }
 }
+
+class TextInputTest extends Component {
+  
+  componentWillMount() {
+    this.setState({
+      inputText: '',
+    })
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <TextInput
+          style={{height: 40,borderColor: 'gray', borderWidth: 1}}
+          onChangeText={(text) => { this.setState({inputText: text}) }}
+          value={this.state.inputText}
+          />
+        <Text>
+          {this.state.inputText}
+        </Text>
+      </View>
+    );
+  }
+}
+
+
 
 class NavBar extends Component {
   render() {
@@ -115,8 +149,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   container: {
-    flex: 1,
-    flexDirection: 'row'
+    height:100
   },
   left: {
     flex: 1,

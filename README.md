@@ -10,6 +10,12 @@
 [https://expo.io/](https://expo.io/)
 
 
+## RN state, props
+
+
+
+
+
 ## Reactjs code Snippets (vscode)
 Below is a list of all available snippets and the triggers of each one. The ⇥ means the TAB key.
 
