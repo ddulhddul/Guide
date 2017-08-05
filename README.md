@@ -1,14 +1,3 @@
-# Repository Guide
-- How to Merge
-```linux
-git remote add -f DesignPatternNotes ../DesignPatternNotes
-git merge -s ours --allow-unrelated-histories --no-commit DesignPatternNotes/master
-git read-tree --prefix=DesignPatternNotes/ -u DesignPatternNotes/master
-git commit -m "Merge B project as our subdirectory"
-```
----
----
-
 ## React-Native Notes (2017.8.3 ~ 2017.8.5)
 - [react-native](rnTest/README.md)
 
@@ -42,3 +31,16 @@ git commit -m "Merge B project as our subdirectory"
 ## NodeJs Tutorials (2017.1.29 ~ 2017.2.27) // Deleted
 - [NodeJs](nodejsTutorials/README.md)
 - [생활코딩 NodeJs](https://opentutorials.org/course/2136)
+
+
+---
+---
+
+# Repository Guide
+- How to Merge
+```linux
+git remote add -f DesignPatternNotes ../DesignPatternNotes
+git merge -s ours --allow-unrelated-histories --no-commit DesignPatternNotes/master
+git read-tree --prefix=DesignPatternNotes/ -u DesignPatternNotes/master
+git commit -m "Merge B project as our subdirectory"
+```
