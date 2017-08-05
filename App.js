@@ -48,21 +48,34 @@ class User extends Component {
     );
   }
 }
+
+class Button extends Component {
+  render() {
+    return (
+      <View style={{flex: 1, height: 100, borderWidth: 0.5, justifyContent: 'center', alignItems: 'center'}}>
+        <View style={{width:50, height:50, backgroundColor:'gray'}}></View>
+        <Text>{this.props.name}</Text>
+      </View>
+    );
+  }
+}
+
+
 class ButtonGroup extends Component {
   render() {
     return (
-      <View style={{height:200, flex:1, flexDirection:'column', backgroundColor:'green'}}>
-        <View style={{flexDirection:'row'}}>
-          <View style={{flex:1}}><Text>내 계정</Text></View>
-          <View style={{flex:1}}><Text>친구</Text></View>
-          <View style={{flex:1}}><Text>강의평가</Text></View>
-          <View style={{flex:1}}><Text>학점계산기</Text></View>
+      <View style={{height:300, flex:1, flexDirection:'column', backgroundColor:'green'}}>
+        <View style={{flex:1, flexDirection:'row'}}>
+          <Button name="내 계정" />
+          <Button name="친구" />
+          <Button name="강의평가" />
+          <Button name="학점계산기" />
         </View>
-        <View style={{flexDirection:'row'}}>
-          <View style={{flex:1}}><Text>쪽지함</Text></View>
-          <View style={{flex:1}}><Text>공지사항</Text></View>
-          <View style={{flex:1}}><Text>도움말</Text></View>
-          <View style={{flex:1}}><Text>앱 설정</Text></View>
+        <View style={{flex:1, flexDirection:'row'}}>
+          <Button name="쪽지함" />
+          <Button name="공지사항" />
+          <Button name="도움말" />
+          <Button name="앱 설정" />
         </View>
       </View>
     );
