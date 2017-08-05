@@ -10,7 +10,17 @@
 [https://expo.io/](https://expo.io/)
 
 
-## RN state, props
+## bind ?
+어떤 함수를 실행할 때 그 함수 안에서의 this를 지정시켜주는 역할
+
+## react-native-router-flux
+- react-native에서 귀찮은 router 작업을 편하게 해줌
+- Drawer Layout, Tabs 등 router에 필요한 UI들도 지원
+
+## react-native-vector-icons
+```bash
+$ npm install react-native-vector-icons --save
+```
 
 
 
