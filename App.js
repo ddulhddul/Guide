@@ -27,7 +27,10 @@ class Todo extends Component {
   }
 
   addTodo() {
-    let todoItem = this.state.inputText
+    let todoItem = {
+      context: this.state.inputText,
+      complete: false
+    }
     let todos = this.state.todos
     todos.push(todoItem)
     this.setState({
@@ -36,11 +39,27 @@ class Todo extends Component {
     })
   }
 
+  completeTodo(index) {
+    let todos = this.state.todos
+    todos[index].complete = !todos[index].complete
+    this.setState({
+      todos: todos,
+    })
+  }
+
+  deleteTodo (index) {
+    let todos = this.state.todos
+    todos.splice(index, 1)
+    this.setState({
+      todos: todos,
+    })
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <TextInput
-          style={{marginTop:50, height: 40,borderColor: 'gray', borderWidth: 1}}
+          style={{height: 40,borderColor: 'gray', borderWidth: 1}}
           onChangeText={(text) => {
             this.setState({inputText: text})
           }}
@@ -54,9 +73,17 @@ class Todo extends Component {
         {
           this.state.todos.map((todoItem, index)=> {
             return (
-              <Text key={index}>
-                {todoItem}
-              </Text>
+              <View key={index} style={{flexDirection: 'row'}}>
+                <Text style={todoItem.complete ? {textDecorationLine: 'line-through'} : {textDecorationLine: 'none'}}>
+                  {todoItem.context}
+                </Text>
+                <TouchableOpacity onPress={this.completeTodo.bind(this, index)}>
+                  <Text>{todoItem.complete ? "---complete" : "---incomplete" }</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={this.deleteTodo.bind(this, index)}>
+                  <Text>     delete </Text>
+                </TouchableOpacity>
+              </View>
             )
           })
         }
@@ -65,36 +92,11 @@ class Todo extends Component {
   }
 }
 
-
-
 const styles = StyleSheet.create({
-  app: {
-    flex: 1,
-    flexDirection: 'column'
-  },
   container: {
-    height:100
-  },
-  left: {
     flex: 1,
-    backgroundColor: 'red'
-  },
-  right: {
-    flex: 1,
-    flexDirection: 'column'
-  },
-  top: {
-    flex: 1,
-    backgroundColor: 'blue'
-  },
-  bottom: {
-    flex: 2,
-    backgroundColor: 'green'
-  },
-  navBar: {
-    height: 50,
-    alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'green'
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
   },
 });
