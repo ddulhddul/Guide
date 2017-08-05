@@ -21,43 +21,8 @@ export default class App extends React.Component {
 }
 
 class Todo extends Component {
-  componentWillMount() {
-    this.setState({
-      inputText: '',
-      todos: [],
-    })
-  }
-
-  addTodo() {
-    let todoItem = {
-      context: this.state.inputText,
-      complete: false
-    }
-    let todos = this.state.todos
-    todos.push(todoItem)
-    this.setState({
-      inputText: '',
-      todos: todos,
-    })
-  }
-
-  completeTodo(index) {
-    let todos = this.state.todos
-    todos[index].complete = !todos[index].complete
-    this.setState({
-      todos: todos,
-    })
-  }
-
-  deleteTodo (index) {
-    let todos = this.state.todos
-    todos.splice(index, 1)
-    this.setState({
-      todos: todos,
-    })
-  }
-
-
+  
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -81,47 +46,28 @@ class Todo extends Component {
   }
 
 
-
   render() {
     return (
       <View style={styles.container}>
-          
-        <Ionicons size={35} name='ios-person-outline' color="#000000" />
-
-        <TextInput
-          style={{height: 40,borderColor: 'gray', borderWidth: 1}}
-          onChangeText={(text) => {
-            this.setState({inputText: text})
-          }}
-          value={this.state.inputText}
-          />
-        {
-          this.state.todos.map((todoItem, index)=> {
-            return (
-              <View key={index} style={{flexDirection: 'row'}}>
-                <Text style={todoItem.complete ? {textDecorationLine: 'line-through'} : {textDecorationLine: 'none'}}>
-                  {todoItem.context}
-                </Text>
-                <TouchableOpacity onPress={this.completeTodo.bind(this, index)}>
-                  <Text>{todoItem.complete ? "---complete" : "---incomplete" }</Text>
-                </TouchableOpacity>
-                <TouchableOpacity onPress={this.deleteTodo.bind(this, index)}>
-                  <Text>     delete </Text>
-                </TouchableOpacity>
-              </View>
-            )
-          })
-        }
-        <TouchableOpacity onPress={this.addTodo.bind(this)}>
-          <Animated.View style={{position: 'absolute', backgroundColor: '#AAAAAA', right: this.state.x, bottom: 100, height: 30, width: 30, backgroundColor:'red'}}>
-            <Text>
-              add Todo
-            </Text>
-          </Animated.View>
+        <View style={{backgroundColor: '#FFAAAA', flex: 1}}>
+          <View style={{position: 'absolute', backgroundColor: '#FFFFFF', right: 30, bottom: 30, height: 30, width: 30}}></View>
+        </View>
+        <View style={{flexDirection: 'row', flex: 1}}>
+          <View style={{backgroundColor: '#FFAA00', flex: 1}}>
+            <View style={{position: 'absolute', backgroundColor: '#FFFFFF', right: 30, bottom: 30, height: 30, width: 30}}></View>
+          </View>
+          <View style={{backgroundColor: '#00AAAA', flex: 1}}></View>
+        </View>
+        <View style={{backgroundColor: '#FF00AA', flex: 1}}>
+          <View style={{position: 'absolute', backgroundColor: '#FFFFFF', right: 30, bottom: 30, height: 30, width: 30}}></View>
+        </View>
+        <TouchableOpacity onPress={this.click.bind(this)}>
+          <Animated.View style={{position: 'absolute', backgroundColor: '#AAAAAA', right: this.state.x, bottom: 40, height: 30, width: 30}}></Animated.View>
         </TouchableOpacity>
       </View>
     );
   }
+
 }
 
 const styles = StyleSheet.create({
