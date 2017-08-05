@@ -64,7 +64,7 @@ class Button extends Component {
 class ButtonGroup extends Component {
   render() {
     return (
-      <View style={{height:300, flex:1, flexDirection:'column', backgroundColor:'green'}}>
+      <View style={{height: 200, backgroundColor: '#C5E1A5'}}>
         <View style={{flex:1, flexDirection:'row'}}>
           <Button name="내 계정" />
           <Button name="친구" />
@@ -81,15 +81,27 @@ class ButtonGroup extends Component {
     );
   }
 }
+
+class TabButton extends Component {
+  render() {
+    return (
+      <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+        <View style={{height:30, width: 30, backgroundColor:'gray'}}></View>
+        <Text style={{marginTop: 5, color: '#A0A0A0'}}>{this.props.name}</Text>
+      </View>
+    );
+  }
+}
+
 class Tabs extends Component {
   render() {
     return (
       <View style={{height: 100, flexDirection:'row', backgroundColor:'yellow'}}>
-        <View style={{flex:1}}><Text>홈</Text></View>
-        <View style={{flex:1}}><Text>시간표</Text></View>
-        <View style={{flex:1}}><Text>커뮤니티</Text></View>
-        <View style={{flex:1}}><Text>모임</Text></View>
-        <View style={{flex:1}}><Text>더보기</Text></View>
+        <TabButton name="홈" />
+        <TabButton name="시간표" />
+        <TabButton name="커뮤니티" />
+        <TabButton name="모임" />
+        <TabButton name="더보기" />
       </View>
     );
   }
