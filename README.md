@@ -1,3 +1,6 @@
+## Prepare Interview (2017.9.17 ~ )
+- [README](PrepareInterview/README.md)
+
 ## React-Native Notes (2017.8.3 ~ 2017.8.5)
 - [react-native](rnTest/README.md)
 
