@@ -1,3 +1,6 @@
+## ReactJs Tutorial (2017.10.29)
+- [README](tutorialReactjsOrg/)
+
 ## Prepare Interview (2017.9.17 ~ )
 - [README](PrepareInterview/)
 
@@ -42,8 +45,8 @@
 # Repository Guide
 - How to Merge
 ```linux
-git remote add -f DesignPatternNotes ../DesignPatternNotes
-git merge -s ours --allow-unrelated-histories --no-commit DesignPatternNotes/master
-git read-tree --prefix=DesignPatternNotes/ -u DesignPatternNotes/master
-git commit -m "Merge B project as our subdirectory"
+git remote add -f tutorialReactjsOrg ../tutorialReactjsOrg
+git merge -s ours --allow-unrelated-histories --no-commit tutorialReactjsOrg/master
+git read-tree --prefix=tutorialReactjsOrg/ -u tutorialReactjsOrg/master
+git commit -m "Merge tutorialReactjsOrg project as our subdirectory"
 ```
